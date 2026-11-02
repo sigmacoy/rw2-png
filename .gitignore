@@ -1,0 +1,13 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Output folders (generated PNGs)
+RAW png pics/
