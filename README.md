@@ -9,7 +9,6 @@ Recursively scans a folder, converts every `.rw2` file it finds, and writes full
 ### macOS
 
 ```bash
-git clone https://github.com/<your-username>/rw2-png.git
 cd rw2-png
 python3 -m venv .venv
 source .venv/bin/activate
@@ -19,7 +18,6 @@ source .venv/bin/activate
 ### Windows
 
 ```powershell
-git clone https://github.com/<your-username>/rw2-png.git
 cd rw2-png
 python -m venv .venv
 .venv\Scripts\activate
@@ -29,7 +27,7 @@ pip install rawpy numpy opencv-python-headless
 ## Usage
 
 ```bash
-python3 rw2_to_png.py /path/to/photos
+python3 rw2_to_png.py {path}
 ```
 
 **Example output:**
